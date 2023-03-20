@@ -1,7 +1,41 @@
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.seccion-oscura {
+    color: black;
+    background-color: white;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+
+}
+
+.seccion-texto {
+    /* margin-top: 30px; */
+    font-size: 1.2rem;
+}
+
 /* Barra de navegación */
 
 .navbar {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #f5f6f7;
 }
 
@@ -10,9 +44,54 @@
     justify-content: space-between;
 }
 
+
+/* Hero */
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #625151;
+}
+
+.hero-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* Sobre Mi */
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 40px;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (min-width:700px){
+    .hero-inferior-image {
+        max-width: 600px;
     }
 }
