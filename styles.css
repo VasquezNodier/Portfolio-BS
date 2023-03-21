@@ -83,6 +83,18 @@ h1 {
     padding: 40px;
 }
 
+.experiencia .row div {
+    height: 250px;
+    background-color: aqua;
+    border: 2px solid orange;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
 /* Responsive */
 @media screen and (max-width: 768px) {
     .navbar-brand {
