@@ -146,7 +146,7 @@ h1 {
 /* Proyectos */
 
 .proyectos-recientes {
-    padding: 40px;
+    padding: 20px;
 }
 
 .proyectos-recientes img {
@@ -201,6 +201,24 @@ h1 {
     font-size: 30px;
     margin: 10px;
 }
+
+/* Articulos */
+
+.articulos {
+    min-height: 500px;
+    padding: 20px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
 
 
 /* Responsive */
