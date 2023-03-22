@@ -327,8 +327,57 @@ h1 {
 
 }
 
+/* Footer */
 
+footer {
+    min-height: 500px;
+}
 
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a  {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.2 ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.iconos-redes-sociales i{
+    color: #fff;
+    margin: 20px;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+.iconos-redes-sociales a:hover i {
+    color: #000;
+}
+
+.derechos-de-autor {
+    font-size: 12px;
+    color: #aeaeae;
+    padding: 20px;
+}
 
 
 
